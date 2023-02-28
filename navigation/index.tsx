@@ -1,12 +1,12 @@
 import {NavigationContainer} from "@react-navigation/native";
-import {createNativeStackNavigator} from "@react-navigation/native-stack";
+import {createStackNavigator} from "@react-navigation/stack";
 import ProfileScreen from "../screens/ProfileScreen";
 import MainScreen from "../screens/MainScreen";
 import SettingsScreen from "../screens/SettingsScreen";
 
 
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export default function Navigation(){
     return(

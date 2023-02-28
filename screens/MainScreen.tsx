@@ -1,10 +1,18 @@
-import {NativeStackHeaderProps} from "@react-navigation/native-stack";
+import {StackHeaderProps} from "@react-navigation/stack";
 import {Button, StyleSheet, View} from "react-native";
 import ProfileScreen, {user} from "./ProfileScreen";
 import SettingsScreen from "./SettingsScreen";
 
 
-export default function MainScreen({navigation}:NativeStackHeaderProps){
+export default function MainScreen({navigation}:StackHeaderProps){
+
+    // const user = {
+    //     id: 1,
+    //     photo: 'https://microbewiki.kenyon.edu/images/thumb/9/98/PuppyDogEyes.jpg/200px-PuppyDogEyes.jpg',
+    //     firstName: 'Andy',
+    //     lastName: 'Hilton',
+    //     age: 35,
+    // };
 
     return(
         <View style={styles.container}>
