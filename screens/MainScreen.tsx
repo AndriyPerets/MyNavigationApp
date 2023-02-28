@@ -6,14 +6,6 @@ import SettingsScreen from "./SettingsScreen";
 
 export default function MainScreen({navigation}:NativeStackHeaderProps){
 
-    // const user = {
-    //     id: 1,
-    //     photo: 'https://microbewiki.kenyon.edu/images/thumb/9/98/PuppyDogEyes.jpg/200px-PuppyDogEyes.jpg',
-    //     firstName: 'Andy',
-    //     lastName: 'Hilton',
-    //     age: 35,
-    // };
-
     return(
         <View style={styles.container}>
             <Button

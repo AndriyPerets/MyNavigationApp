@@ -1,6 +1,6 @@
 import {View, StyleSheet} from "react-native";
 import {NativeStackHeaderProps} from "@react-navigation/native-stack";
-import UserProfile, {User} from "../components/UserProfile"
+import UserProfile from "../components/UserProfile"
 
 export const user = {
     id: 1,
@@ -9,10 +9,8 @@ export const user = {
     lastName: 'Hilton',
     age: 35,
 };
-// export default function ProfileScreen({ route }: NativeStackHeaderProps) {
 export default function ProfileScreen({}: NativeStackHeaderProps) {
 
-    // const {user} = route.params as { user: User };
 
 
     return(
